@@ -2,7 +2,6 @@
 
 > 수정사항을 바로 확인하기 위해서는 Live Server를 이용하자!!!
 
-
 ## 1. 기초
 
 ```html
@@ -124,3 +123,5 @@
     <option value="JavaScript"></option>
   </datalist>
 </label>
+
+```
