@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML 폼 실습</title>
+  </head>
+  <body>
+    <form action="https://search.naver.com/search.naver" method="get">
+      <input type="text" name="query" />
+      <button>검색</button>
+    </form>
+
+    <form action="https://search.naver.com/search.naver" method="get">
+      <label>
+        검색어 :
+        <select name="query">
+          <option value="JAVA">JAVA</option>
+          <option value="SQL">SQL</option>
+          <option value="HTML">HTML</option>
+        </select>
+      </label>
+      <button>검색</button>
+    </form>
+
+    <form action="https://search.naver.com/search.naver" method="get">
+      <label>
+        검색어 :
+        <label>
+          <input type="radio" name="query" value="스프링부트" />
+          스프링부트
+        </label>
+        <label>
+          <input type="radio" name="query" value="JPA" />
+          JPA
+        </label>
+        <label>
+          <input type="radio" name="query" value="JSP" />
+          JSP
+        </label>
+      </label>
+      <button>검색</button>
+    </form>
+
+    <form action="https://search.naver.com/search.naver" method="get">
+      <label>
+        검색어 :
+        <input type="text" name="query" list="keywords" />
+        <datalist id="keywords">
+          <option value="HTML"></option>
+          <option value="CSS"></option>
+          <option value="JavaScript"></option>
+        </datalist>
+      </label>
+      <button>검색</button>
+    </form>
+  </body>
+</html>

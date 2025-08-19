@@ -1,8 +1,8 @@
-# HTML
+# Typography
 
 > 수정사항을 바로 확인하기 위해서는 Live Server를 이용하자!!!
 
-## 1. 기초
+## 0. 구조
 
 ```html
 <!-- html 주석 -->
@@ -66,4 +66,60 @@
 
 ```html
 <img src="이미지 링크" alt="이미지 설명" width="100" height="100" />
+```
+
+<br />
+<br />
+
+# Form
+
+## 0. 구조
+
+```html
+<form>
+  <!-- 여기에 폼 구조 작성 -->
+</form>
+```
+
+> 값을 입력 받아 naver 검색을 진행하는 실습
+
+## 1. 텍스트(input)
+
+```html
+<input type="text" />
+```
+
+## 2. 드롭다운(select)
+
+```html
+<select name="query">
+  <option value="JAVA">JAVA</option>
+  <option value="SQL">SQL</option>
+  <option value="HTML">HTML</option>
+</select>
+```
+
+## 3. 라디오
+
+```html
+<!-- 타입을 라디오로 정의 -->
+<input type="radio" />
+
+<label>
+  <input type="radio" name="query" value="스프링부트" />
+  스프링부트
+</label>
+```
+
+## 4. 자동완성(datalist)
+
+```html
+<label>
+  <input type="text" name="query" list="keywords" />
+  <datalist id="keywords">
+    <option value="HTML"></option>
+    <option value="CSS"></option>
+    <option value="JavaScript"></option>
+  </datalist>
+</label>
 ```
