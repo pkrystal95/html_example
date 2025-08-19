@@ -2,7 +2,8 @@
 
 > 수정사항을 바로 확인하기 위해서는 Live Server를 이용하자!!!
 
-## 0. 구조
+
+## 1. 기초
 
 ```html
 <!-- html 주석 -->
@@ -66,6 +67,7 @@
 
 ```html
 <img src="이미지 링크" alt="이미지 설명" width="100" height="100" />
+<<<<<<< HEAD
 ```
 
 <br />
@@ -122,4 +124,3 @@
     <option value="JavaScript"></option>
   </datalist>
 </label>
-```
