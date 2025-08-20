@@ -1,9 +1,71 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>나의 깃허브 페이지</title>
+    <style>
+      /* 전체 배경과 폰트 */
+      body {
+        margin: 0;
+        font-family: "맑은 고딕", "Malgun Gothic", Tahoma, Geneva, Verdana,
+          sans-serif;
+        background: linear-gradient(to right, #74ebd5, #acb6e5);
+        color: #333;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        text-align: center;
+      }
+
+      h1 {
+        font-size: 3rem;
+        margin-bottom: 0.5rem;
+        color: #fff;
+        text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+      }
+
+      p {
+        font-size: 1.2rem;
+        margin-bottom: 1.5rem;
+        color: #f0f0f0;
+      }
+
+      .btn {
+        background-color: #fff;
+        color: #333;
+        padding: 0.8rem 1.5rem;
+        border: none;
+        border-radius: 25px;
+        font-size: 1rem;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        text-decoration: none;
+      }
+
+      .btn:hover {
+        background-color: #333;
+        color: #fff;
+        transform: scale(1.05);
+      }
+
+      footer {
+        position: absolute;
+        bottom: 10px;
+        font-size: 0.9rem;
+        color: #fff;
+      }
+    </style>
   </head>
-  <body></body>
+  <body>
+    <h1>나의 깃허브 페이지에 오신 것을 환영합니다!</h1>
+    <p>이곳은 나의 GitHub Pages 사이트입니다. 편하게 구경하세요.</p>
+    <a href="https://github.com/pkrystal95" class="btn" target="_blank"
+      >내 GitHub 보기</a
+    >
+
+    <footer>© 2025 pkrystal95</footer>
+  </body>
 </html>
